@@ -1,5 +1,5 @@
-#ifndef LIST.H
-#define LIST.H
+#ifndef LISTS_H
+#define LISTS_H
 
 #include <stdlib.h>
 
@@ -9,7 +9,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- *
+ * 
  */
 typedef struct listint_s
 {

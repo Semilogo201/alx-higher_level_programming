@@ -1,4 +1,9 @@
 #!/usr/bin/python3
 
-def number_keys(a_dictionary):
-    return len(a_dictionary.keys())
+
+def only_diff_elements(set_1, set_2):
+    """
+    A function that returns a set of all elements
+    present in only one set.
+    """
+    return (set_1 ^ set_2)
